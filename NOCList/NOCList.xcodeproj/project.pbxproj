@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DDFAAB1229F581400E154CE /* AgentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFAAB0229F581400E154CE /* AgentDetailViewController.swift */; };
 		CEC31CC8229759CC007F6F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC31CC7229759CC007F6F4A /* AppDelegate.swift */; };
 		CEC31CCD229759CC007F6F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC31CCB229759CC007F6F4A /* Main.storyboard */; };
 		CEC31CCF229759CC007F6F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC31CCE229759CC007F6F4A /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DDFAAB0229F581400E154CE /* AgentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailViewController.swift; sourceTree = "<group>"; };
 		CEC31CC4229759CC007F6F4A /* NOCList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOCList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC31CC7229759CC007F6F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC31CCC229759CC007F6F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CEC31CC7229759CC007F6F4A /* AppDelegate.swift */,
 				CEC31CD9229759FA007F6F4A /* NOCListTableViewController.swift */,
+				9DDFAAB0229F581400E154CE /* AgentDetailViewController.swift */,
 				CEC31CCB229759CC007F6F4A /* Main.storyboard */,
 				CEC31CCE229759CC007F6F4A /* Assets.xcassets */,
 				CEC31CD0229759CC007F6F4A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC31CC8229759CC007F6F4A /* AppDelegate.swift in Sources */,
+				9DDFAAB1229F581400E154CE /* AgentDetailViewController.swift in Sources */,
 				CEC31CDA229759FA007F6F4A /* NOCListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
